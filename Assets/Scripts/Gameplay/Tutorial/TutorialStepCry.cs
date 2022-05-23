@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.ParticleSystem;
 
-public class TutorialStep_Cry : TutorialStep
+public class TutorialStepCry : TutorialStep
 {
     /// <summary>
     /// Reference to Tears particle system

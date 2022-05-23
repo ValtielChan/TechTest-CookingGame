@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TutorialStep_DestroyedObject : TutorialStep
+public class TutorialStepDestroyedObject : TutorialStep
 {
     /// <summary>
     /// The list of object to check

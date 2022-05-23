@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Tutorial enemy that do nothing but exists and take damages
+/// Tutorial enemy that does nothing but exists and take damages
 /// </summary>
 public class OnionTutorial : Enemy
 {

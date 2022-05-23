@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class TutorialStep_KnifeBreak : TutorialStep
+public class TutorialStepKnifeBreak : TutorialStep
 {
     /// <summary>
     /// Reference to the right interactor

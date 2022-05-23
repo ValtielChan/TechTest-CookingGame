@@ -15,7 +15,7 @@ public class DamageEffect : MonoBehaviour
     /// Effect's quad renderer
     /// </summary>
     [SerializeField]
-    private Renderer renderer;
+    private new Renderer renderer;
 
     /// <summary>
     /// Displayed damage color
