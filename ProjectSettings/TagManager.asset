@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hand
+  - Damage Zone
+  - Enemy
+  - Tear Zone
   layers:
   - Default
   - TransparentFX

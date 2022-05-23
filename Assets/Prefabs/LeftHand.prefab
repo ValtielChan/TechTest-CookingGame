@@ -279,8 +279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2220000807970405812}
   - component: {fileID: 4709053728510764209}
-  - component: {fileID: 2289481236323451078}
   - component: {fileID: 5678406722607596444}
+  - component: {fileID: 7085134342395411942}
   m_Layer: 0
   m_Name: hands:Lhand
   m_TagString: Hand
@@ -379,20 +379,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00654291, y: -0.036744133, z: -0.06238377}
     m_Extent: {x: 0.072534904, y: 0.09257294, z: 0.105605766}
   m_DirtyAABB: 0
---- !u!64 &2289481236323451078
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2167849505554341298}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5039762209388763531, guid: 0da33fc22be18d949937391ccd975d1a, type: 3}
 --- !u!54 &5678406722607596444
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -409,6 +395,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &7085134342395411942
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167849505554341298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5039762209388763531, guid: 0da33fc22be18d949937391ccd975d1a, type: 3}
 --- !u!1 &2593491925339669452
 GameObject:
   m_ObjectHideFlags: 0
